@@ -5,5 +5,6 @@ This repo contains the implementation of our work towards building a more robust
 ## Environment
 + apex   0.1
 + torch  1.1.0
-+ Python 3.6+
 + sacred 0.7.5
++ Python 3.6+
+
