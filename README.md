@@ -8,7 +8,7 @@ This repo contains the implementation of our work towards building a more robust
 + sacred 0.7.5
 + Python 3.6+
 
- 
+## Contents
 - [x] source code 
 - [ ] model scores
 - [ ] pre-trained model
