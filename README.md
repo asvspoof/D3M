@@ -8,3 +8,12 @@ This repo contains the implementation of our work towards building a more robust
 + sacred 0.7.5
 + Python 3.6+
 
+ 
+- [x] source code 
+- [ ] model scores
+- [ ] pre-trained model
+- [x] sample for analysis
+- [ ] Detailed result analysis
+
+
+We are continuously adding comments and refining the repository. If you have some questions, feel free to open an issue:)
