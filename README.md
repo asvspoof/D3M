@@ -9,7 +9,6 @@ We are continuously adding comments and refining the repository. If you have som
 - [x] sample for analysis
 - [x] model scores (working on)
 - [ ] pre-trained model
-- [ ] more...
 
 ## Environment
 + apex   0.1
