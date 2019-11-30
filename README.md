@@ -6,9 +6,9 @@ We are continuously adding comments and refining the repository. If you have som
 
 ## Contents
 - [x] source code 
-- [ ] model scores
-- [ ] pre-trained model
 - [x] sample for analysis
+- [.] model scores
+- [ ] pre-trained model
 - [ ] more...
 
 ## Environment
