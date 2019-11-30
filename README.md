@@ -7,7 +7,7 @@ We are continuously adding comments and refining the repository. If you have som
 ## Contents
 - [x] source code 
 - [x] sample for analysis
-- [.] model scores
+- [x] model scores (working on)
 - [ ] pre-trained model
 - [ ] more...
 
