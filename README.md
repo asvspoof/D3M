@@ -12,7 +12,7 @@ We are continuously adding comments and refining the repository. If you have som
 
 ## Environment
 + apex   0.1
-+ torch  1.1.0
++ PyTorch  1.1.0
 + sacred 0.7.5
 + Python 3.6+
 
