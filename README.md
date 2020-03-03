@@ -5,10 +5,10 @@ This repo contains the implementation of our work towards building a more robust
 We are continuously adding comments and refining the repository. If you have some questions, feel free to open an issue:)
 
 ## Contents
-- [x] source code 
-- [x] sample for analysis
-- [x] model scores (working on)
-- [ ] pre-trained model
+- [x] source code of proposed methods 
+- [x] attack samples for analysis
+- [x] model scores of seperate groups
+- [ ] pre-trained model (Working on it)
 
 ## Train the model
     python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/Model-epoch-25.pth' 'test_first=False' 'num_workers=1' 'eval_mode=False'
