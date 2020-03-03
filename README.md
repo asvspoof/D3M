@@ -10,6 +10,13 @@ We are continuously adding comments and refining the repository. If you have som
 - [x] model scores (working on)
 - [ ] pre-trained model
 
+## Train the model
+`python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/Model-epoch-25.pth' 'test_first=False' 'num_workers=1' 'eval_mode=False'
+`
+## Test the model
+`
+python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/models/best-eer-ep36-0.786008.pt' 'test_first=False' 'num_workers=1' 'eval_mode=True' 'server=0' 'train_batch=32' 'GRL_LAMBDA=0.001' 'evalProtocolFile=/data/dyq/anti-spoofing/ASVspoof2019/ASVspoof2019_PA_real/ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.real.cm.eval.trl.txt' 'eval_dir=/fast/dyq/ASVspoof2019_PA_real/GDgram_magnitude_1024_400_240'
+`
 ## Environment
 + apex   0.1
 + PyTorch  1.1.0
