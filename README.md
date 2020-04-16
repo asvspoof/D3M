@@ -8,7 +8,7 @@ We are continuously adding comments and refining the repository. If you have som
 - [x] source code of proposed methods 
 - [x] attack samples for analysis
 - [x] model scores of seperate groups
-- [ ] pre-trained model (Working on it)
+- [x] High-resolution images (in the near future)
 
 ## Environment
 + apex   0.1
