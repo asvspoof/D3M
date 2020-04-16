@@ -13,7 +13,7 @@ We are continuously adding comments and refining the repository. If you have som
 ## Environment
 + apex   0.1 (for mixed precision training)
 + PyTorch  1.1.0 (DL framework)
-+ sacred 0.7.5 (for experiments records)
++ sacred 0.7.5 (record experimental details)
 + Python 3.6+ 
 
 ## Train the model
