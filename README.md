@@ -16,6 +16,9 @@ We are continuously adding comments and refining the repository. If you have som
 + sacred 0.7.5 (record experimental details)
 + Python 3.6+ 
 
+To install most dependencies automatically:
+    pip install -r requirements.txt
+
 ## Train the model
     python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/Model-epoch-25.pth' 'test_first=False' 'num_workers=1' 'eval_mode=False'
 
