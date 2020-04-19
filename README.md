@@ -17,6 +17,7 @@ We are continuously adding comments and refining the repository. If you have som
 + Python 3.6+ 
 
 To install most dependencies automatically:
+
     pip install -r requirements.txt
 
 ## Train the model
