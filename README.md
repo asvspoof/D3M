@@ -1,6 +1,8 @@
 # Dynamically Mitigating Data Discrepancy with Balanced Focal Loss for Replay Attack Detection
 
-This repo contains the implementation of our work towards building a more robust replay attack detection system. We propose an informative and  complementary feature representation and leverage a more effective training objective. Experimental results in terms of min-tDCF and EER, as well as more detailed analysis will be reported in this repo.
+This repo contains the implementation of our work towards building a more robust replay attack detection system. We propose an informative and complementary feature representation and leverage a more effective training objective. Experimental results in terms of min-tDCF and EER, as well as more detailed analysis will be reported in this repo. 
+
+Source code and other details for replay attack detection, tested on ASVspoof2019 PA and Real-PA dataset.
 
 We are continuously adding comments and refining the repository. If you have some questions, feel free to open an issue:)
 
