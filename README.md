@@ -28,6 +28,14 @@ To install most dependencies automatically:
 ## Test the model
     python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/models/best-eer-ep36-0.786008.pt' 'test_first=False' 'num_workers=1' 'eval_mode=True' 'server=0' 'train_batch=32' 'GRL_LAMBDA=0.001' 'evalProtocolFile=/data/to/anti-spoofing/ASVspoof2019/ASVspoof2019_PA_real/ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.real.cm.eval.trl.txt' 'eval_dir=/data/to/ASVspoof2019_PA_real/GDgram_magnitude_1024_400_240'
 
+## Citation
+If you find this work helpful, please cite it in your publications.
 
-
-
+    @misc{dou2020dynamically,
+    title={Dynamically Mitigating Data Discrepancy with Balanced Focal Loss for Replay Attack Detection},
+    author={Yongqiang Dou and Haocheng Yang and Maolin Yang and Yanyan Xu and Dengfeng Ke},
+    year={2020},
+    eprint={2006.14563},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
