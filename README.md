@@ -29,8 +29,8 @@ To install most dependencies automatically:
     python main.py with 'epoch=50' 'lr=0.001'  'load_model=False' 'load_file=results/models/best-eer-ep36-0.786008.pt' 'test_first=False' 'num_workers=1' 'eval_mode=True' 'server=0' 'train_batch=32' 'GRL_LAMBDA=0.001' 'evalProtocolFile=/data/to/anti-spoofing/ASVspoof2019/ASVspoof2019_PA_real/ASVspoof2019_PA_cm_protocols/ASVspoof2019.PA.real.cm.eval.trl.txt' 'eval_dir=/data/to/ASVspoof2019_PA_real/GDgram_magnitude_1024_400_240'
 
 ## Use scared for experiment management
-We use 'scared' to manage our experiments, you can create 'myexp.py' with your own configurations.
-Something like this:
+We use ![scared][https://github.com/IDSIA/Sacred] to manage our experiments, you can create a file named `myexp.py` with your own configurations.
+For instance, 
 
     from sacred import Experiment
     from sacred.observers import MongoObserver
@@ -41,6 +41,7 @@ Something like this:
         url='mongodb://exp:user@yourip:port/sacred?authMechanism=SCRAM-SHA-1',
         db_name='sacred'))
     ex.captured_out_filter = apply_backspaces_and_linefeeds
+
 
 ## Citation
 If you find this work helpful, please cite it in your publications.
