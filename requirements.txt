@@ -55,7 +55,7 @@ TorchSnooper==0.6.1
 torchvision==0.3.0
 trsfile==0.3.1
 uritemplate==3.0.0
-urllib3==1.25.3
+urllib3==1.25.8
 Wave==0.0.2
 Werkzeug==0.15.4
 wrapt==1.11.2
