@@ -46,11 +46,12 @@ For instance,
 ## Citation
 If you find this work helpful, please cite it in your publications.
 
-    @misc{dou2020dynamically,
-    title={Dynamically Mitigating Data Discrepancy with Balanced Focal Loss for Replay Attack Detection},
+    @inproceedings{dou2021dynamically,
     author={Yongqiang Dou and Haocheng Yang and Maolin Yang and Yanyan Xu and Dengfeng Ke},
-    year={2020},
-    eprint={2006.14563},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-    }
+    booktitle={The 25th International Conference on Pattern Recognition (ICPR)}, 
+    title={Dynamically Mitigating Data Discrepancy with Balanced Focal Loss for Replay Attack Detection}, 
+    year={2021},
+    volume={},
+    number={},
+    pages={4115-4122},
+    doi={10.1109/ICPR48806.2021.9412749}}
