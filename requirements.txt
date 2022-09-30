@@ -16,7 +16,7 @@ grpcio==1.21.1
 h5py==2.9.0
 httplib2==0.18.0
 idna==2.8
-joblib==0.13.2
+joblib==1.2.0
 jsonpickle==0.9.6
 kiwisolver==1.1.0
 librosa==0.7.0
